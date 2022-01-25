@@ -17,8 +17,8 @@ export default function Header(props) {
           <span class="slider round"></span>
         </label>
       </div>
-      <h1>
-        Vasyl <span className="letter-l">L.</span> Lespuch
+      <h1 id="VL-Header">
+      <span className="letter-l">V</span>asyl <span className="letter-l">L</span>espuch
       </h1>
       <h2>Front End Developer</h2>
       <ul>

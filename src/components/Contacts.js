@@ -7,9 +7,14 @@ export default function Contacts(props){
       }
     return (
         <div style={props.darkModeON ? darkStyle : null} className="App-header container tool-container">
-            <hr />
+            <hr className="myLine" />
         <h2 id="contacts">Contacts</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident distinctio facere vero error, sapiente deserunt vitae consequatur doloremque debitis quis.</p>
+        <p>You can contact me by 
+        <a
+          style={props.darkModeON ? darkStyle : null}
+          className="inline-para-links"
+          href="https://www.facebook.com/vasyl.lespuch.3/"
+        >facebook</a>or by an email address: info[`at`]lespuch.com</p>
         </div>
     )
 }
