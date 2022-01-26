@@ -6,6 +6,7 @@ import quizzappimg from "../images/portfolio-images/QuizzAPP.jpg";
 import xmaslogo from "../images/portfolio-images/xmascounter.png";
 import movieimg from "../images/portfolio-images/movieapp.jpg";
 import imagesmeme from "../images/portfolio-images/memegen.jpg";
+import superVillain from "../images/portfolio-images/super Villain Conference.png"
 
 export default function Portfolio(props) {
   const darkStyle = {
@@ -20,16 +21,16 @@ export default function Portfolio(props) {
     >
       <hr className="myLine" />
       <h2 id="portfolio">Portfolio</h2>
-      <div class="grid-container">
+      <div className="grid-container">
       <a
           className="myPortfolioImage"
-          href="https://lespuch-v.github.io/ReactJSMovieSearchApp/"
+          href="https://lespuch-v.github.io/SuperVillainConference/"
         >
           <div className="itm-container">
             <h5>Villain Conference</h5>
             <img
               className="portfolio-pictures"
-              src=""
+              src={superVillain}
               alt="Villain Conference"
             />
             <h5>JS / React</h5>

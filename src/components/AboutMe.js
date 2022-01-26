@@ -13,7 +13,7 @@ export default function AboutMe(props) {
     >
       <h2 id="my-about-heading">About Me</h2>
       <p className="about-me-text">
-        I love web-technologies such as
+        I love web-technologies: 
         <a
           style={props.darkModeON ? darkStyle : null}
           className="inline-para-links"
@@ -77,7 +77,7 @@ export default function AboutMe(props) {
           JavaScript
         </a>
         it gives my code additional strictness and readability. This is
-        something that I'm currently learning and working on In the future, I
+        something that I'm currently learning and working on. In the future, I
         plan to use it as much as possible.
       </p>
     </div>

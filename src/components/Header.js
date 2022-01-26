@@ -7,14 +7,14 @@ export default function Header(props) {
   return (
     <div
       style={props.darkModeON ? darkStyle : null}
-      classNameid="about-me-start"
+      className="about-me-start"
       className="App-header container"
     >
       <div className="toggle-dark-mode">
         <spam className="dark-mode-text">Dark Mode </spam>
-        <label class="switch">
+        <label className="switch">
           <input onClick={props.toggleDark} type="checkbox" />
-          <span class="slider round"></span>
+          <span className="slider round"></span>
         </label>
       </div>
       <h1 id="VL-Header">

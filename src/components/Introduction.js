@@ -19,7 +19,7 @@ export default function Introduction(props) {
         <h2 id="about">Hi, I'm Vasyl!</h2>
         <p>
           And I'm a Front-end Developer. I love creating web applications that
-          users can view and interact with.
+          users can use and interact with.
         </p>
         <p>
           My main focus is Front-End development which client-side development
