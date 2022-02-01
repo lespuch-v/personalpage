@@ -1,6 +1,11 @@
 :root{
   --paraFontSize: 20px;
   --paraSmallQueriesFontSize: 15px;
+  /* Variables for the animations */
+  --bg-color: hsl(49 37% 94%);
+  --bg-imgae: url(./images/background/crossword.png);
+  --typewriterSpeed: 3s;
+  --typeWriterCharacters: 13;
 }
 html,
 body {
@@ -551,4 +556,48 @@ a{
   #VL-Header{
     text-align: center;
   }
+}
+
+/* ----------------------------------------------------------------- */
+/* Animations */
+
+.text-anim{
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 100;
+  position: relative;
+  width: max-content;
+}
+
+#VL-Header::before,
+#VL-Header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#VL-Header::before{
+    background: var(--bg-imgae);
+    animation: typewriter var(--typewriterSpeed) steps(var(--typeWriterCharacters)) 1s forwards;
+}
+#VL-Header::after{
+    width: .125em;
+    background-color: black;
+    animation: typewriter var(--typewriterSpeed) steps(var(--typeWriterCharacters)) 1s forwards, 
+                blink 750ms steps(24) infinite;
+
+}
+@keyframes typewriter{
+    to{
+        left: 100%
+    }
+}
+@keyframes blink{
+    to{
+        background-color: transparent;
+    }
 }

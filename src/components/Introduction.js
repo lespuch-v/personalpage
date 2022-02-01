@@ -22,8 +22,8 @@ export default function Introduction(props) {
           users can use and interact with.
         </p>
         <p>
-          My main focus is Front-End development which client-side development
-          with the use of technologies such as
+          My main focus is Front-End development which is client-side development
+          with the use of technologies such as&nbsp; 
           <a
             style={props.darkModeON ? darkStyle : null}
             className="inline-para-links"

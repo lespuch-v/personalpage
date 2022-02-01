@@ -32,7 +32,7 @@ export default function Tools(props) {
         </a>
         Which is rich in features and has a giant community of developers. As
         for code I mainly work with JavaScript, HTML, CSS, and React. Here you
-        can see list of tools and technologeis that i worked with.
+        can see a list of tools and technologies that I worked with.
       </p>
       <div className="tools-container">
         <a

@@ -17,7 +17,7 @@ export default function Header(props) {
           <span className="slider round"></span>
         </label>
       </div>
-      <h1 id="VL-Header">
+      <h1 className="text-anim" id="VL-Header">
       <span className="letter-l">V</span>asyl <span className="letter-l">L</span>espuch
       </h1>
       <h2>Front End Developer</h2>
