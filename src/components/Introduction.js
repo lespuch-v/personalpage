@@ -1,20 +1,12 @@
-import logo from "../images/imgs/user.png";
-import youtube from "../images/imgs/yourube1.svg";
-import facebook from "../images/imgs/facebook1.svg";
-import github from "../images/imgs/github.svg";
-import twitter from "../images/imgs/twitter.svg";
+import logo from '../images/imgs/user.png';
+import youtube from '../images/imgs/yourube1.svg';
+import facebook from '../images/imgs/facebook1.svg';
+import github from '../images/imgs/github.svg';
+import twitter from '../images/imgs/twitter.svg';
 
-export default function Introduction(props) {
-  const darkStyle = {
-    backgroundColor: "#2D4263",
-    color: "#FEFBF3",
-  };
-
+export default function Introduction() {
   return (
-    <div
-      style={props.darkModeON ? darkStyle : null}
-      className="App-header container introduction--container"
-    >
+    <div className="App-header container introduction--container">
       <div>
         <h2 id="about">Hi, I'm Vasyl!</h2>
         <p>
@@ -22,31 +14,28 @@ export default function Introduction(props) {
           users can use and interact with.
         </p>
         <p>
-          My main focus is Front-End development which is client-side development
-          with the use of technologies such as&nbsp; 
+          My main focus is Front-End development which is client-side
+          development with the use of technologies such as&nbsp;
           <a
-            style={props.darkModeON ? darkStyle : null}
             className="inline-para-links"
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           >
-          HTML,
+            HTML,
           </a>
           <a
-            style={props.darkModeON ? darkStyle : null}
             className="inline-para-links"
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           >
             CSS,
           </a>
           <a
-            style={props.darkModeON ? darkStyle : null}
             className="inline-para-links"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           >
-          JavaScript
+            JavaScript
           </a>
           and
-          <a style={props.darkModeON ? darkStyle : null} className="inline-para-links" href="https://reactjs.org/">
+          <a className="inline-para-links" href="https://reactjs.org/">
             React.
           </a>
         </p>
@@ -57,7 +46,6 @@ export default function Introduction(props) {
             className="social-media-icons-image"
             href="https://www.youtube.com/"
           >
-            
             <img src={youtube} alt="Youtube" />
           </a>
           <a
@@ -70,11 +58,9 @@ export default function Introduction(props) {
             className="social-media-icons-image"
             href="https://github.com/lespuch-v"
           >
-            
             <img src={github} alt="GitHub" />
           </a>
           <a className="social-media-icons-image" href="https://twitter.com/">
-            
             <img src={twitter} alt="Twitter" />
           </a>
         </div>

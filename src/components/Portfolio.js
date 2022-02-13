@@ -1,28 +1,20 @@
-import React from "react";
-import snake from "../images/portfolio-images/snake.png";
-import porfoliopage from "../images/portfolio-images/portfolio-page.png";
-import cryptoDashboard from "../images/portfolio-images/crypto-dashboard.png";
-import quizzappimg from "../images/portfolio-images/QuizzAPP.jpg";
-import xmaslogo from "../images/portfolio-images/xmascounter.png";
-import movieimg from "../images/portfolio-images/movieapp.jpg";
-import imagesmeme from "../images/portfolio-images/memegen.jpg";
-import superVillain from "../images/portfolio-images/super Villain Conference.png"
+import React from 'react';
+import snake from '../images/portfolio-images/snake.png';
+import porfoliopage from '../images/portfolio-images/portfolio-page.png';
+import cryptoDashboard from '../images/portfolio-images/crypto-dashboard.png';
+import quizzappimg from '../images/portfolio-images/QuizzAPP.jpg';
+import xmaslogo from '../images/portfolio-images/xmascounter.png';
+import movieimg from '../images/portfolio-images/movieapp.jpg';
+import imagesmeme from '../images/portfolio-images/memegen.jpg';
+import superVillain from '../images/portfolio-images/super Villain Conference.png';
 
-export default function Portfolio(props) {
-  const darkStyle = {
-    backgroundColor: "#2D4263",
-    color: "#FEFBF3",
-  };
-
+export default function Portfolio() {
   return (
-    <div
-      style={props.darkModeON ? darkStyle : null}
-      className="App-header container portfolio-container"
-    >
+    <div className="App-header container portfolio-container">
       <hr className="myLine" />
       <h2 id="portfolio">Portfolio</h2>
       <div className="grid-container">
-      <a
+        <a
           className="myPortfolioImage"
           href="https://lespuch-v.github.io/SuperVillainConference/"
         >
@@ -35,7 +27,7 @@ export default function Portfolio(props) {
             />
             <h5>JS / React</h5>
           </div>
-          </a>
+        </a>
 
         <a
           className="myPortfolioImage"

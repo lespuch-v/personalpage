@@ -1,33 +1,22 @@
-import React from "react";
-import vscode from "../images/tools and technologies/vscode.png";
-import htmllogo from "../images/tools and technologies/html-logo-1.png";
-import csslogo from "../images/tools and technologies/css-logo.png";
-import javascriptlogo from "../images/tools and technologies/Javascript-shield.svg";
-import reactlogo from "../images/tools and technologies/react-logo.png";
-import jestlogo from "../images/tools and technologies/jest.svg";
-import gitLogo from "../images/tools and technologies/git.png";
-import typescript from "../images/tools and technologies/Typescript_logo.svg";
-import webpacklogo from "../images/tools and technologies/webpack.png";
+import React from 'react';
+import vscode from '../images/tools and technologies/vscode.png';
+import htmllogo from '../images/tools and technologies/html-logo-1.png';
+import csslogo from '../images/tools and technologies/css-logo.png';
+import javascriptlogo from '../images/tools and technologies/Javascript-shield.svg';
+import reactlogo from '../images/tools and technologies/react-logo.png';
+import jestlogo from '../images/tools and technologies/jest.svg';
+import gitLogo from '../images/tools and technologies/git.png';
+import typescript from '../images/tools and technologies/Typescript_logo.svg';
+import webpacklogo from '../images/tools and technologies/webpack.png';
 
-export default function Tools(props) {
-  const darkStyle = {
-    backgroundColor: "#2D4263",
-    color: "#FEFBF3",
-  };
+export default function Tools() {
   return (
-    <div
-      style={props.darkModeON ? darkStyle : null}
-      className="App-header container tool-container"
-    >
+    <div className="App-header container tool-container">
       <hr className="myLine" />
       <h2 id="tools">Tools & Technologies</h2>
       <p>
         My favorite text editor is
-        <a
-          style={props.darkModeON ? darkStyle : null}
-          className="inline-para-links"
-          href="https://code.visualstudio.com/"
-        >
+        <a className="inline-para-links" href="https://code.visualstudio.com/">
           Visual Studio Code.
         </a>
         Which is rich in features and has a giant community of developers. As
