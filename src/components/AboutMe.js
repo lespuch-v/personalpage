@@ -33,7 +33,7 @@ export default function AboutMe() {
         <a className="inline-para-links" href="https://cs.wordpress.org/">
           WordPress
         </a>
-        blog and I was fascinated by it ever since.
+        blog, and I have been fascinated by it ever since.
       </p>
       <p className="about-me-text">
         I'm a fan of testing the code! Which makes code more reliable, readable,
@@ -43,16 +43,16 @@ export default function AboutMe() {
       <p className="about-me-text">
         Recently I come across
         <a className="inline-para-links" href="https://www.typescriptlang.org/">
-          Typescript
+          Typescript,
         </a>
         which is a superset of
         <a
           className="inline-para-links"
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         >
-          JavaScript
+          JavaScript.
         </a>
-        it gives my code additional strictness, predictability, and readability.
+        It gives my code additional strictness, predictability, and readability.
         This is something that I'm currently learning and working on. In the
         future, I plan to use it as much as possible.
       </p>

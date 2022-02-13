@@ -20,8 +20,8 @@ export default function Tools() {
           Visual Studio Code.
         </a>
         Which is rich in features and has a giant community of developers. As
-        for code I mainly work with JavaScript, HTML, CSS, and React. Here you
-        can see a list of tools and technologies that I worked with.
+        for code, I mainly work with JavaScript, HTML, CSS, and React. Here you
+        can see a list of tools and technologies I worked with.
       </p>
       <div className="tools-container">
         <a

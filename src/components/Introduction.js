@@ -3,6 +3,7 @@ import youtube from '../images/imgs/yourube1.svg';
 import facebook from '../images/imgs/facebook1.svg';
 import github from '../images/imgs/github.svg';
 import twitter from '../images/imgs/twitter.svg';
+import insta from '../images/imgs/instagram.svg';
 
 export default function Introduction() {
   return (
@@ -32,7 +33,7 @@ export default function Introduction() {
             className="inline-para-links"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           >
-            JavaScript
+            JavaScript,
           </a>
           and
           <a className="inline-para-links" href="https://reactjs.org/">
@@ -47,6 +48,13 @@ export default function Introduction() {
             href="https://www.youtube.com/"
           >
             <img src={youtube} alt="Youtube" />
+          </a>
+          {/* FIX ME HERE  */}
+          <a
+            className="social-media-icons-image"
+            href="https://www.instagram.com/vlcoding/"
+          >
+            <img src={insta} alt="Instagram" />
           </a>
           <a
             className="social-media-icons-image"
